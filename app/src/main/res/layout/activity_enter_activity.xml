@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/doi"
+    tools:context=".Enter_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <CalendarView
+            android:id="@+id/calendar"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_height="290dp">
+
+        </CalendarView>
+        <TextView
+            android:id="@+id/getDate"
+            android:layout_width="match_parent"
+            android:text="Chọn Ngày Hiện tại"
+            android:textSize="20dp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập ngày bắt đầu yêu"
+            android:textSize="20dp"
+            >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/old_date"
+            >
+        </EditText>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên bạn Nam"
+            android:textSize="20dp"
+            >
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_nam"
+            >
+        </EditText>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Bạn Nữ"
+            android:textSize="20dp"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/name_nu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+        </EditText>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đếm nào">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
